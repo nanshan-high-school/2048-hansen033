@@ -5,7 +5,7 @@
 #include <stdlib.h>
 using namespace std;
 int main(){   
-    cout << "歡迎來到有問題的2048!請用方向鍵\n*本遊戲規則為如果沒有空格時進行一個無效輸入便會輸";
+    cout << "歡迎來到2048!請用方向鍵\n*本遊戲規則為如果沒有空格時進行一個無效輸入便會輸";
     system("Pause");
     system("cls");
 	int ch1=0, ch2 = 0, lose = 1, game[4][4] = {0}, g1, g2, g3, sim = 0, loselose = 1;
